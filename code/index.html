@@ -4,9 +4,89 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
     <link href="/src/style.css" rel="stylesheet">
-    <title>Title</title>
+    <title>Tarea-2</title>
   </head>
-  <body>
+
+  <body class="bg-[#2B2D38] max-w-[80%] mx-auto font-[Poppins] ">
+    
+    <header class="flex pt-8 mb-20">
+        <a href="#"><img src="./assets/logo_gath.svg" alt="Logo GathSession"></a>
+
+        <nav class="ml-auto text-white">
+          <ul class="flex justify-center gap-12 relative">
+            <li class="hover:font-bold after:content-[''] after:border-2 after:border-[#DB2A6B] after:w-6 after:h-0-5 after:rotate-180 after:absolute after:top-7 after:left-0 "><a href="#">Home</a></li>
+            <li class="hover:font-bold"><a href="#">Features</a></li>
+            <li class="hover:font-bold"><a href="#">Blog</a></li>
+            <li class="hover:font-bold"><a href="#">Contact</a></li>
+            <li class="hover:font-bold"><a href="#">About Us</a></li>
+          </ul>
+        </nav>
+
+    </header>
+
+    <main class="flex">
+
+      <section class="flex flex-col w-[55%]">
+
+        <h1 class="font-bold font-[Merriweather] text-white text-7xl mb-10">
+          Build your best community starting from here.
+        </h1>
+
+        <p class="text-[#95969B] w-[70%] mb-5 text-l">
+          Meet and communicate with the best people to run projects, events or other activities in a more effective and fun way
+        </p>
+        
+        <div class="flex gap-10 mb-30">
+
+          <a class="inline-block text-white py-3 px-8 bg-[#DB2A6B] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl hover:text-[#DB2A6B] hover:bg-white" href="#">Get Started</a>
+          <div class="flex gap-2 w-50">
+            <a class="inline-block pt-3 underline text-white" href="#">Learn More</a>
+            <img src="./assets/arrow.svg" alt="arrow">
+          </div>
+
+        </div>
+        <section class="flex justify-between w-[80%] text-white">
+          <div class="flex justify-center align-center hover:scale-110 transition-transform">
+            <a href=""><img class="mr-4" src="./assets/icon_mensage.svg" alt="icon"></a>
+
+            <div class="flex flex-col pt-2">
+              <span>Build</span>
+              <span>Community</span>
+            </div>
+
+          </div>
+  
+          <div class="flex justify-center align-center hover:scale-110 transition-transform">
+            <a href="#"><img class="mr-4" src="./assets/icon_dos.svg" alt="icon"></a>
+            <div class="flex flex-col pt-2">
+              <span>Share</span>
+              <span>Events</span>
+            </div>
+
+          </div>
+  
+          <div class="flex justify-center align-center hover:scale-110 transition-transform">
+            <a href="#"><img class="mr-4" src="./assets/icon_tres.svg" alt="icon"></a>
+            <div class="flex flex-col pt-2">
+              <span>Get</span>
+              <span>Information</span>
+            </div>
+
+          </div>
+  
+        </section>
+
+      </section>
+    
+      <section>
+        <img class="relative bottom-0 -right-50" src="./assets/content.png" alt="">
+      </section>
+
+    </main>
+
   </body>
 </html>
